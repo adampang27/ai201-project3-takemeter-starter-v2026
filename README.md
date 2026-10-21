@@ -99,48 +99,25 @@ The eight test posts included circular arguments, claims backed only by authorit
 
 ## The Dataset
 
-<!-- Where you collected from, how you labelled, your counts, and three hard
-     cases. -->
+The posts come from public [r/DeepThoughts](https://www.reddit.com/r/DeepThoughts/) feeds and linked threads. Each row keeps the title and full body.
 
-**Where the posts came from:**
+Each post was labeled using the definitions above, then checked again. More unsupported claims and questions were collected to stay within the 70% limit. The source links and hard-case notes are in `note`.
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
-
-**Counts per label:**
+The 20 independent cold labels are still pending.
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| `reasoned` | 140 | 70% |
+| `no_reasoning` | 60 | 30% |
+| Total | 200 | 100% |
 
-**Three hard cases**
+Three cases were hard to place between `reasoned` and `no_reasoning`:
 
-<!-- Any post that made you pause: what it was, which two labels it could have
-     been, and what you chose. These are worth more than the easy 190. -->
+1. The [post about being in a rush](https://www.reddit.com/r/DeepThoughts/comments/1x0tjdu/our_modern_concept_of_being_in_a_rush_is_entirely/) blames technology in its title, but the body only asks questions. It gets `no_reasoning` because it never says why technology causes that feeling.
 
-**1.**
-> *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
+2. The [free-will post](https://www.reddit.com/r/DeepThoughts/comments/1x1e6rd/free_will_may_be_an_illusion_created_by_the/) is mostly questions, but connects decisions to genes, past experiences, and the environment. It gets `reasoned` because it uses that connection to question whether choices are free.
 
-**2.**
-> *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
-
-**3.**
-> *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
+3. The [post blaming 90% of humanity's problems on self-interest](https://www.reddit.com/r/DeepThoughts/comments/1tiu39e/90_of_humanity_problems_is_caused_by_shortterm/) lists problems without explaining the connection. It gets `no_reasoning` because repeating the cause does not give a reason to believe it.
 
 ---
 
