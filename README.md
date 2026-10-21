@@ -39,10 +39,15 @@
 
 ## What This Does
 
-<!-- Your community, and what your classifier sorts posts into. Three or four
-     sentences. -->
+TakeMeter uses public posts from [r/askphilosophy](https://www.reddit.com/r/askphilosophy/).
 
+Three possible distinctions from the posts:
 
+- Some make an argument; others just ask for information.
+- Some ask for study advice; others explore a philosophical question.
+- Some focus on a named philosopher or theory; others ask a general question.
+
+[Posts reviewed](community_notes.md).
 
 ---
 
