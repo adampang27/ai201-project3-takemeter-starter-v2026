@@ -39,55 +39,61 @@
 
 ## What This Does
 
-TakeMeter uses public posts from [r/askphilosophy](https://www.reddit.com/r/askphilosophy/).
+This classifies public posts from [r/DeepThoughts](https://www.reddit.com/r/DeepThoughts/) as `reasoned` or `no_reasoning`. I chose this community because the posts include everyday casual opinions and broader philosophical discussions..
 
-Three possible distinctions from the posts:
+Three differences stood out in the posts:
 
-- Some make an argument; others just ask for information.
-- Some ask for study advice; others explore a philosophical question.
-- Some focus on a named philosopher or theory; others ask a general question.
-
-[Posts reviewed](community_notes.md).
+- Some posts have a claim and give reasoning behind it, others just state a thought.
+- Some posts use personal experiences, others use hypothetical situations.
+- Some posts refer to famous philosophers or theories, others use everyday examples from their observations.
 
 ---
 
 ## Label Taxonomy
 
-<!-- Each label: a one-sentence definition and two real examples from your
-     reading. Then your decision rule for the hardest boundary.
+I chose this split because I can point to the part of a post that gives a reason. The examples below are from the linked posts.
 
-     The decision rule is worth a point on its own and it's the thing most
-     people leave out. Every taxonomy has a hardest boundary. Name yours. -->
+### `reasoned`
 
-### `label_one`
+**Definition:** A post that connects a claim to a reason, even if the reasoning is weak or incorrect.
 
-**Definition:**
+**Example 1:** [A perfect system will stagnate, unless it's disrupted frequently.](https://www.reddit.com/r/DeepThoughts/comments/1x1wf6k/a_perfect_system_will_stagnate_unless_its/)
 
-**Example 1:**
+> To get a perfect system to generate growth, you must disrupt the system, and force it to adapt.
 >
+> Then, you get progression.
 
-**Example 2:**
->
+The post links disruption to adaptation and growth, so it gets `reasoned`.
 
-### `label_two`
+**Example 2:** [I know what being deceased feels like, and as do you.](https://www.reddit.com/r/DeepThoughts/comments/1x2mcu1/i_know_what_being_deceased_feels_like_and_as_do/)
 
-**Definition:**
+> You are your consciousness and therefore being nothing implies being unconscious. A dead person is not conscious.
 
-**Example 1:**
->
+The author uses a claim about consciousness to support a claim about death. That counts as reasoning even if the argument is wrong.
 
-**Example 2:**
->
+### `no_reasoning`
+
+**Definition:** A post that states a claim or asks a question without giving a reason for a conclusion.
+
+**Example 1:** [Between thinking and knowing, thinking is more important](https://www.reddit.com/r/DeepThoughts/comments/1x295et/between_thinking_and_knowing_thinking_is_more/)
+
+> Between thinking and knowing, thinking is more important
+
+This states which matters more without saying why, so it gets `no_reasoning`.
+
+**Example 2:** [Our modern concept of "being in a rush" is entirely manufactured by technology rather than a natural human instinct.](https://www.reddit.com/r/DeepThoughts/comments/1x0tjdu/our_modern_concept_of_being_in_a_rush_is_entirely/)
+
+> If our digital infrastructure, atomic clocks, and instant messaging suddenly vanished, how long would it take for society to unlearn the psychological anxiety of urgency? Would we naturally revert to a slower, cyclical rhythm dictated by nature, or has the artificial pressure of time been permanently hardwired into our collective psychology?
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `reasoned` and `no_reasoning`.
 
-**The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+The post about being in a rush is the closest case. Its title says technology creates urgency, but the body only asks what would happen without it. I put it in `no_reasoning` because it doesn't give a reason for that claim.
 
+**The decision rule:** If a post gives a reason for its claim, I use `reasoned`, even if the reasoning is weak or wrong. Otherwise, I use `no_reasoning`.
 
+The eight test posts included circular arguments, claims backed only by authority, and hypothetical questions.
 
 ---
 
